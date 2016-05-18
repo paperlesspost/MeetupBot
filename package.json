@@ -1,0 +1,23 @@
+{
+  "name": "meetup-bot",
+  "version": "1.0.0",
+  "description": "Integrate your Meetup calendar with Slack to post reminders before an event starts or get a summary for your week.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SarahSexton/MeetupBot.git"
+  },
+  "keywords": [
+    "slack",
+    "bot"
+  ],
+  "author": "Sarah Sexton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SarahSexton/MeetupBot/issues"
+  },
+  "homepage": "https://github.com/SarahSexton/MeetupBot#readme"
+}
