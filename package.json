@@ -23,6 +23,5 @@
   "dependencies": {
     "botbuilder": "^0.10.2",
     "botkit": "^0.1.1",
-    "meetup": "0.1.0-SNAPSHOT"
   }
 }
