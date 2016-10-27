@@ -22,6 +22,6 @@
   "homepage": "https://github.com/SarahSexton/MeetupBot#readme",
   "dependencies": {
     "botbuilder": "^0.10.2",
-    "botkit": "^0.1.1",
+    "botkit": "^0.1.1"
   }
 }
