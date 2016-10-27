@@ -11,7 +11,7 @@ var options = {
     day: "numeric", hour: "2-digit", minute: "2-digit"
 };
 
-controller.hears('Hi', ['direct_message', 'direct_mention', 'mention'], function (bot, message)
+controller.hears('', ['direct_message', 'direct_mention', 'mention'], function (bot, message)
 {
   https.get("https://api.meetup.com/self/calendar" + "?key=" + meetupKey + "&page=5&fields=plain_text_description", function (res)
   {
