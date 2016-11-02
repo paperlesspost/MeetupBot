@@ -4,6 +4,11 @@ var https = require("https");
 
 var meetupKey = process.env.MEETUP_KEY;
 
+var today = new Date();
+if (today.getDay() !== 1){
+  process.exit();
+}
+
 var options = {
     weekday: "long", year: "numeric", month: "short",
     day: "numeric", hour: "2-digit", minute: "2-digit"
