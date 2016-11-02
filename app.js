@@ -29,7 +29,7 @@ controller.hears('', ['direct_message', 'direct_mention', 'mention'], function (
           text: "*" + mupdata[i].name + "*\n" +
                 date.toLocaleTimeString("en-us", options) + "\n" +
                 mupdata[i].venue.name + " (" + mupdata[i].venue.address_1 + ")\n" +
-                mupdata[i].link.replace(/https?:\/\//,"") + "\n +
+                mupdata[i].link.replace(/https?:\/\//,"") + "\n" +
                 "========================================",
           unfurl_links: false,
           unfurl_media: false
