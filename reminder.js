@@ -24,9 +24,10 @@ var bot = controller.spawn({
       mupdata = JSON.parse(buffer);
       for (var i=0; i < mupdata.length; i++){
         var date = new Date(mupdata[i].time);
+        var venueInfo = mupdata[i].venue ? mupdata[i].venue.name + " (" + mupdata[i].venue.address_1 + ")\n" : ""
         bot.send({text: "*" + mupdata[i].name + "*\n" +
                 date.toLocaleTimeString("en-us", options) + "\n" +
-                mupdata[i].venue.name + " (" + mupdata[i].venue.address_1 + ")\n" +
+                venueInfo +
                 mupdata[i].link.replace(/https?:\/\//,"") + "\n" +
                 "========================================",
           unfurl_links: false,
